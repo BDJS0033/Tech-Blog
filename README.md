@@ -2,10 +2,11 @@
 
 ## Packages
 ```
-npm i mysql2
+npm i mysql
 npm i dotenv
 npm i sequelize
 npm i bcrypt
+npm i connect-session-sequelize
 npm i express-handlebars
 npm i express-session
 ```
