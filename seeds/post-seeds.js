@@ -1,7 +1,5 @@
 const { Post } = require('../models');
 
-//amend post_content to post_content
-
 const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',

@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 const hbs = exphbs.create({ helpers });
 // connect to database
 const sequelize = require('./config/connection');
-const routes = require("./controllers");
+const routes = require('./controllers');
 // connect the session to Sequelize database
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 

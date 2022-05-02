@@ -5,13 +5,7 @@ const withAuth = require('../../utils/auth');
 //GET route for api/comments
 router.get('/', (req, res) => {
     Comment.findAll({
-        attributes: [
-        'id',
-        'comment_text',
-        'user_id',
-        'post_id',
-        'created_at'
-        ],
+        attributes: ['id', 'comment_text','user_id','post_id','created_at'],
     })
     .then(dbCommentData => res.json(dbCommentData))
     .catch(err => {
