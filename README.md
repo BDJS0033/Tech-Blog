@@ -1,5 +1,7 @@
 # Model-View-Controller (MVC) Challenge: Tech Blog
 
+This weeks challenge was to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+
 ## Packages
 ```
 npm i mysql
@@ -12,11 +14,11 @@ npm i express-session
 ```
 
 ## Screenshot
-________
+![Screenshot 2022-05-09 120516](https://user-images.githubusercontent.com/82056351/167451136-7e47a562-f5f6-49bc-816e-07e42fa9d39f.jpg)
 
 
 ## Technology:
-________________________
+
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/package/connect-session-sequelize">Connect Session Sequelize</a></p>
 <p><a href="https://www.npmjs.com/package/mysql">MySQL</a></p>
@@ -29,4 +31,6 @@ ________________________
 
 ## GitHub
 
-https://agile-waters-83539.herokuapp.com/
+Please find deployed URL in Heroku: https://agile-waters-83539.herokuapp.com/
+
+Please find the URL for the repository: https://github.com/BDJS0033/Tech-Blog
